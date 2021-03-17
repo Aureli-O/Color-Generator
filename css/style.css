@@ -1,0 +1,36 @@
+*{
+    font-family:monospace;
+    font-size:1.5rem;
+    color: #eeee;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:300px;
+    width:300px;
+    padding: 20px;
+    background-color:#393e46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:3px;
+}
+.btn{
+    background:none;
+    width:190px;
+    height:70px;
+    outline:none;
+    cursor:pointer;
+    margin-top:20px;
+    border:2px solid #eeee;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+.btn:hover{
+    filter:brightness(0.1);
+}
